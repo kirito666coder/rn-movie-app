@@ -13,8 +13,6 @@ export default function Index() {
   const {data:movies, loading:moviesLoading,error:moviesError} = useFatch(()=>fetchMovies({
     query:""
   }))
-  
-   console.log("movie",movies,"loading",moviesLoading,"error",moviesError?.message)
   return (
     <View className="flex-1 bg-primary">
       <Image source={images.bg}  className="absolute w-full z-0" />
