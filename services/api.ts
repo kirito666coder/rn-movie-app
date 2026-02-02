@@ -27,9 +27,9 @@ export const fetchMovies = async ({query}:{query:string}) =>{
     return data.results
 }
 
-export const fetchMoviesDetails = async(movieId:string):Promise<Movie> =>{
+export const fetchMoviesDetails = async(movieId:string):Promise<MovieDetails> =>{
 try {
-    const response = await fetch(`${TMDB_CONFIG.BASE_URL}/Movie/${movieId}?api_key=${TMDB_CONFIG.API_KEY}`,
+    const response = await fetch(`${TMDB_CONFIG.BASE_URL}/movie/${movieId}?api_key=${TMDB_CONFIG.API_KEY}`,
         {
             method: "GET",
             headers: TMDB_CONFIG.headers,
