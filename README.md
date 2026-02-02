@@ -1,6 +1,6 @@
 # Movie App (Expo + TMDB)
 
-[![Download Android APK](https://img.shields.io/badge/Download-Android%20APK-brightgreen?style=for-the-badge&logo=android)](https://github.com/kirito666coder/rn-movie-app/releases/download/v1.0/application-b7622ab9-76d5-4ff9-b03e-4c4dd9ce4821.apk)
+[![Download Android APK](https://img.shields.io/badge/Download-Android%20APK-brightgreen?style=for-the-badge&logo=android)](https://github.com/kirito666coder/rn-movie-app/releases/download/v1.1.0/movie-app-v1.1.0.apk)
 
 A React Native movie browsing app built with **Expo Router**, **TypeScript**, and **NativeWind**. It pulls movie data from **TMDB** and includes a home feed, search, and a movie details screen.
 
