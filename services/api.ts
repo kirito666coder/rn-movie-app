@@ -1,10 +1,13 @@
+import Constants from "expo-constants";
+
+const apiKey = Constants.expoConfig?.extra?.movieApiKey;
 
 export const TMDB_CONFIG ={
     BASE_URL:"https://api.themoviedb.org/3",
-    API_KEY:process.env.EXPO_PUBLIC_MOVIE_API_KEY,
+    API_KEY:apiKey,
     headers:{
         accept:"application/json",
-        Authorization:`Bearer ${process.env.EXPO_PUBLIC_MOVIE_API_KEY}`
+        Authorization:`Bearer ${apiKey}`
     }
 }
 
